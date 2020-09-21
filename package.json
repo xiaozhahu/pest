@@ -4,13 +4,13 @@
     "description": "An awesome boilerplate for react + typescript development",
     "private": true,
     "author": {
-        "name": "YuTengjing",
-        "url": "https://github.com/tjx666",
-        "email": "ytj2713151713@gmail.com"
+        "name": "xiaozhahu",
+        "url": "https://github.com/xiaozhahu",
+        "email": "aloha_dance@outlook.com"
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:tjx666/react-typescript-boilerplate.git"
+        "url": "git@github.com:xiaozhahu/pest.git"
     },
     "license": "MIT",
     "scripts": {
