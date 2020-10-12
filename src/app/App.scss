@@ -25,6 +25,21 @@
                     content: ' ';
                 }
             }
+            .icon-telphone {
+                &::before {
+                    position: absolute;
+                    top: 0;
+                    left: -30px;
+                    display: block;
+                    width: 3rem;
+                    height: 3rem;
+                    font-size: 20px;
+                    line-height: 56px;
+                    background: url(../../public/icon/desk.png) no-repeat;
+                    background-size: contain;
+                    content: ' ';
+                }
+            }
             > p {
                 margin-top: 5px;
                 margin-bottom: 4px;
