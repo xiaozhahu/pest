@@ -163,7 +163,7 @@ const commonConfig: Configuration = {
                 ],
             },
             {
-                test: /\.(ttf|woff|woff2|eot|otf)$/,
+                test: /\.(ttf|woff|svg|woff2|eot|otf)$/,
                 use: [
                     {
                         loader: 'url-loader',

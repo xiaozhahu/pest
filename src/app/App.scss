@@ -1,11 +1,43 @@
 .app {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 100vw;
     height: 100vh;
 
     .title {
         margin-top: 20px;
+    }
+
+    .header {
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        .header-location {
+            .icon-clock {
+                &::before {
+                    position: absolute;
+                    top: 0;
+                    left: -30px;
+                    display: block;
+                    width: 3rem;
+                    height: 3rem;
+                    font-size: 20px;
+                    line-height: 56px;
+                    background: url(../../public/icon/wine.png) no-repeat;
+                    background-size: contain;
+                    content: ' ';
+                }
+            }
+            > p {
+                margin-top: 5px;
+                margin-bottom: 4px;
+                color: #414141;
+                font-weight: bold;
+                font-size: 15px;
+                line-height: 15px;
+                letter-spacing: 1px;
+            }
+        }
+    }
+
+    .main {
+        height: 1300px;
     }
 }
